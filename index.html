@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="app" id="app">
+      <header class="header">
+        <div>
+          <h1>Tic-Tac-Toe</h1>
+          <p class="sub">Two players • same device</p>
+        </div>
+
+        <div class="controls">
+          <div class="control">
+            <label class="label" for="themeToggle">Theme (current)</label>
+            <button id="themeToggle" class="btn" type="button" aria-pressed="false">
+              Dark
+            </button>
+          </div>
+
+          <div class="control">
+            <label class="label" for="markStyle">Mark style</label>
+            <select id="markStyle" class="select">
+              <option value="classic" selected>Classic (X / O)</option>
+              <option value="emoji">Emoji (❌ / ⭕)</option>
+              <option value="letters">Letters (A / B)</option>
+            </select>
+          </div>
+
+          <div class="control">
+            <label class="label" for="restartBtn">Game</label>
+            <button id="restartBtn" class="btn" type="button">
+              Restart
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div id="status" class="status" role="status" aria-live="polite">
+          Player X’s turn — click an empty square.
+        </div>
+
+        <div id="hint" class="hint" aria-live="polite">
+          Goal: get 3 in a row (horizontal, vertical, or diagonal).
+        </div>
+
+        <div class="scoreboard" aria-label="Scoreboard">
+          <div class="pill"><span id="p1Label">Player X</span>: <strong id="scoreX">0</strong></div>
+          <div class="pill">Draws: <strong id="scoreD">0</strong></div>
+          <div class="pill"><span id="p2Label">Player O</span>: <strong id="scoreO">0</strong></div>
+        </div>
+      </section>
+
+      <section class="board-wrap">
+        <div id="board" class="board" role="grid" aria-label="Tic-Tac-Toe board"></div>
+        <div class="micro">Tip: Restart anytime. Winning line highlights.</div>
+      </section>
+
+      <footer class="footer">
+        <span>Made with HTML + CSS + JavaScript</span>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
