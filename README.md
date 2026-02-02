@@ -8,7 +8,7 @@
 - Or run using VS Code Live Server
 
 ## Live Deployment
-GitHub Pages: <PASTE YOUR LINK HERE>
+GitHub Pages: https://alexandralheureuxece.github.io/lab-1-hsohail7/
 
 ## LLM Tools Used
 - ChatGPT (GPT-5.2) – used for code generation and iterative UI/UX refinements
