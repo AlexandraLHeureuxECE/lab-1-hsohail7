@@ -12,4 +12,3 @@ GitHub Pages: <PASTE YOUR LINK HERE>
 
 ## LLM Tools Used
 - ChatGPT (GPT-5.2) – used for code generation and iterative UI/UX refinements
->>>>>>> f8d2dee (initial commit)

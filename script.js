@@ -177,3 +177,4 @@ restartBtn.addEventListener("click", restartGame);
   updateTurnMessaging();
   renderBoard();
 })();
+ 
